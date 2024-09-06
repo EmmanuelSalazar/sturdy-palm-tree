@@ -35,7 +35,15 @@ main {
     flex-direction: column;
     justify-content: center;
 }
-
+a {
+   text-decoration: none;
+   color: white;
+}
+a:hover {
+   background-color: #2C2C2F;
+   border-radius: 5px;
+   padding: 2px;
+}
 .container > div:nth-child(1) > div{
    width: 100%;
 }
@@ -105,13 +113,22 @@ main {
  .mediaContent{
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     
  }
- .mediaContent > div{
+ .mediaContent > div:nth-child(2) {
+   width: inherit;
+   display: inherit;
+   flex-direction: row;
+
+ }
+ .mediaContent > div:nth-child(2) > div{
     display: flex;
+    flex-direction: row;
     
  }
- .mediaContent > div > a {
+ .mediaContent > div:nth-child(2) > div >  a {
     text-decoration: none;
     color: white;
     display: flex;
@@ -119,7 +136,7 @@ main {
     justify-content: center;
     align-items: center;
  }
- .mediaContent > div > a > img {
+ .mediaContent > div:nth-child(2) > div > a > img {
     width: 8%;
  }
  /* // */
