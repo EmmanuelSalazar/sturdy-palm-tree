@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: montserrat;
+    color: white;
+    background-color: #2C2C2F;
+}
+.background {
+    background-color: #454546;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header > ul {
+    display: flex;
+    gap: 0.2rem;
+}
+.header > ul > li {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+main {
+ display: flex;
+ justify-content: center; 
+ z-index: 100;
+
+}
+.container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+a:hover {
+   background-color: #2C2C2F;
+   border-radius: 5px;
+   padding: 2px;
+}
+.container > div:nth-child(1) > div{
+   width: 100%;
+}
+.container > div:nth-child(2) {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+.container > div:nth-child(2) > div {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.container > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container > div:nth-child(2) > div > img{
+    width: 25px;
+ }
+.profilePic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 0.3rem;
+    background-color: #6CB3B8;
+    z-index: 100;
+ }
+.container > div:nth-child(1) > div > div{
+    width: max-content;
+    display: flex;
+    position: absolute; 
+}
+/* PARTICLES JS */
+
+#particles-js {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    position: relative;
+    width: 100%;
+    height: 350px;
+ }
+ /* DESC CONTENT */
+ .descContent {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+ }
+ .descContent > p {
+   width: 80%;
+ }
+
+ /* ######### */
+
+ /* TEC CONTENT */
+ .tecContent {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 1rem; 
+ }
+ /* ------ */
+ /* MEDIA CONTENT */
+ .mediaContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ .mediaContent > div:nth-child(2) {
+   width: inherit;
+   display: inherit;
+   flex-direction: row;
+
+ }
+ .mediaContent > div:nth-child(2) > div{
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .mediaContent > div:nth-child(2) > div >  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+ }
+ .mediaContent > div:nth-child(2) > div > a > img {
+    width: 8%;
+ }
+ /* // */
+
+ /* postContainer */
+ .postContainer {
+    padding:  0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .postCard {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 0.5rem;
+    border: 0.3rem solid #6CB3B8;
+    padding: 0.3rem;
+    border-radius: 10px;
+ }
+ .postCard > img {
+    width: 30%;
+    border-radius: 5px;
+ }
+ .postTarget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:  0.2rem;
+ }
+ .postCard > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .postTarget > a{
+    background-color: #6CB3B8;
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 5px;
+
+ }
+
+ 
