@@ -7,7 +7,7 @@ body {
     background-color: #2C2C2F;
 }
 .background {
-    background-color: #454546;
+    background-color: linear-gradient(180deg, rgba(42, 0, 78, 0.4) 26%, rgba(69,69,70,1) 100%);
 }
 .header {
     display: flex;
