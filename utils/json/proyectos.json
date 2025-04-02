@@ -1,0 +1,17 @@
+[
+    {
+        "proyecto" : "Randiverse",
+        "descripcion" : "Un lugar en internet donde puedes desprenderte de tus mas pesados pensamientos desde la privacidad y el anonimato",
+        "etiquetas" : ["Web", "Bootstrap", "jQuery", "PHP", "MySQL", "Personal"],
+        "url" :  "https://randiverse.online/",
+        "img" :  "public/img/randiverse.png"
+        
+    },
+    {
+        "proyecto" : "Medidor de eficiencia",
+        "descripcion" : "Aplicativo web que permite medir la eficiencia individual o de un grupo de personas en una tarea determinada",
+        "etiquetas" : ["Web", "Bootstrap", "React", "PHP", "MySQL", "AntDesign", "Empresas"],
+        "url" :  "https://altrendimientodoc.vercel.app/",
+        "img" :  "public/img/alt_confecciones.png"
+    }
+]
