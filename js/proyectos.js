@@ -1,5 +1,5 @@
     $(document).ready(function () {
-        $.getJSON("../utils/json/proyectos.json", function(info){
+        $.getJSON("./utils/json/proyectos.json", function(info){
             $.each(info, function (i, datos) { 
                  $("#postContainer").append(`<div class="postCard">
                     <img src="${datos.img}" />
